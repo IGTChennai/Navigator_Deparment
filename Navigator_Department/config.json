@@ -1,0 +1,8 @@
+{
+    "projectname": "ESA B2B",
+    "mongodburl": "mongodb://HCLMOBILECLOUD:27017",
+    "dbname": "arcus_db",
+    "collection": "Navigator",
+    "initiatedby": "Venkat S",
+    "reason": "for dev"
+}

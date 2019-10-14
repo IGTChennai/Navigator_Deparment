@@ -1,0 +1,11 @@
+{
+  "spec_dir": "bin/tests",
+  "spec_files": [
+    "common.spec.js",
+    "smoke/PROMOTION/Promo_CreateBuyXGetY.spec.js"    
+  ],
+  "helpers": [  
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": false
+}

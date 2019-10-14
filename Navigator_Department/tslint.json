@@ -1,0 +1,30 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "max-line-length": {
+            "options": [
+                120
+            ],
+            "severity": "off"
+        },
+        "curly": true,
+        "await-promise": true,
+        "completed-docs": false,
+        "jsdoc-format": true,
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "semicolon": true,
+        "triple-equals": true,
+        "new-parens": true,
+        "ordered-imports":false,
+        "no-console":false
+        
+    },
+    "rulesDirectory": []
+}

@@ -1,0 +1,67 @@
+{
+  "name": "navigator_retailer_manager",
+  "version": "1.0.0",
+  "description": "Automation for Retailer Manager",
+  "scripts": {
+    "tsc": "tsc",
+    "run": "npm run tsc && node bin/jasmine.config.js",
+    "pretest": "tsc",
+    "test": "protractor bin/igtLottery.config.js && echo ok || echo not ok",
+    "pretest:api": "tsc",
+    "test:api": "npx jasmine  && echo ok || echo not ok",
+    "clean": "rimraf results/**",
+    "clean:test": "rimraf results/** && npm run test",
+    "clean:test:api": "rimraf results/** && npm run test:api"
+  },
+  "keywords": [
+    "automation",
+    "test",
+    "navigator",
+    "retailer",
+    "manager"
+  ],
+  "author": "Marc Meugniot",
+  "contributors": [],
+  "license": "SEE LICENSE IN IGT.LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://git.gtech.com/scm/alotto/navigatorapisample.git"
+  },
+  "engines": {
+    "node": ">=10.15"
+  },
+  "dependencies": {
+    "@types/supertest": "^2.0.7",
+    "alotterysdk": "git+https://git.gtech.com/scm/alotto/alotterysdk.git#feature/sdkTest",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-json-schema": "^1.5.1",
+    "global": "^4.3.2",
+    "jasmine": "^3.4.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-reporters": "^2.3.2",
+    "mongodb": "^3.2.7",
+    "protractor": "^5.4.2",
+    "protractor-beautiful-reporter": "^1.2.7",
+    "protractor-html-screenshot-reporter": "0.0.21",
+    "stack-typescript": "^1.0.4",
+    "supertest": "^4.0.2",
+    "tslint": "^5.19.0",
+    "underscore": "1.9.1",
+    "csvtojson": "2.0.10"
+  },
+  "devDependencies": {
+    "@types/csvtojson": "1.1.5",
+    "@types/underscore": "1.8.8",
+    "@types/chai": "^4.1.7",
+    "@types/chai-json-schema": "^1.4.4",
+    "@types/jasmine": "3.3.12",
+    "@types/jasminewd2": "^2.0.0",
+    "@types/node": "^11.13.6",
+    "jasmine-awesome-report": "0.0.3",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
