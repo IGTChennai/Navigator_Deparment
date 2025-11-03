@@ -42,7 +42,7 @@
     "jasmine-console-reporter": "^3.1.0",
     "jasmine-reporters": "^2.3.2",
     "mongodb": "^3.2.7",
-    "protractor": "^5.4.2",
+    "protractor": "^6.0.0",
     "protractor-beautiful-reporter": "^1.2.7",
     "protractor-html-screenshot-reporter": "0.0.21",
     "stack-typescript": "^1.0.4",
