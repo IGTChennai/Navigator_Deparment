@@ -47,7 +47,7 @@
     "protractor-html-screenshot-reporter": "0.0.21",
     "stack-typescript": "^1.0.4",
     "supertest": "^4.0.2",
-    "tslint": "^5.19.0",
+    "tslint": "^5.20.1",
     "underscore": "1.9.1",
     "csvtojson": "2.0.10"
   },
@@ -61,7 +61,7 @@
     "@types/node": "^11.13.6",
     "jasmine-awesome-report": "0.0.3",
     "rimraf": "^2.6.3",
-    "ts-node": "^8.1.0",
+    "ts-node": "^8.10.2",
     "typescript": "^3.4.5"
   }
 }
